@@ -4,4 +4,6 @@ let li = $('<li></li>');
 list.append(li);
 //Get input value and store it to inputValue
 let inputValue = $('#input').val();
-let text = document.createTextNode(inputValue);
+// let text = document.createTextNode(inputValue); 
+//inputValue/text is added to the list
+li.append(inputValue);
